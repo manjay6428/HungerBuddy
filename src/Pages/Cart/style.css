@@ -1,0 +1,60 @@
+.cart-header{
+    padding-top: 0.5rem;
+
+}
+.orders{
+    margin: 2rem 0 0 0;
+    min-height: calc(100vh -15rem);
+}
+.orders-heading,.orders-total{
+    width: 100%;
+    max-width: 600px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.orders-heading{
+    border-bottom: 2px solid black;
+    margin-bottom: 5.5rem;
+}
+.orders-total{
+    border-top: 2px solid black;
+    text-align: right;
+    margin-left: auto;
+    margin-top: 3rem;
+}
+.goToHome button{
+    float: right;
+    background: #000;
+    color: #fff;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    cursor: pointer;
+    margin-top: 2.5rem;
+}
+.printReceipt button{
+    
+    background: #000;
+    color: #fff;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    cursor: pointer;
+    /* margin-top: .5rem; */
+}
