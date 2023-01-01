@@ -17,6 +17,7 @@ const Banner = (handleScrollMenu) => {
             </div>
         </div>
         <img  src={bannerImg} alt='banner' className='header-img'></img>
+       
     </header>
   )
 }
