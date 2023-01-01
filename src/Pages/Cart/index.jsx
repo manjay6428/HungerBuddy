@@ -15,6 +15,7 @@ const Cart = ({cartCount,cartList,cartTotal}) => {
       <div>
     <div className="cart-header">
     <Logo/>
+    
     </div>
     
     <div className="goToHome">
@@ -30,7 +31,7 @@ const Cart = ({cartCount,cartList,cartTotal}) => {
         Your Total ${cartTotal}
       </div>
       <div className="printReceipt">
-    {/* <button onClick={()=> navigate('/')}> <i className='fas fa-long-arrow-alt-left'></i>Print Receipt</button> */}
+    {/* <button onClick={()=> navigate('/')}> <i className='fas fa-long-arrow-alt-left'></i>Pcrint Receipt</button> */}
     <button onClick={()=>printreceipt()} id="btn2"> <i className='fas fa-long-arrow-alt-left'></i>Print Receipt</button>
     </div>
     </div>
