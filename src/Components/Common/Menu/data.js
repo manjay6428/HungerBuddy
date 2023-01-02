@@ -15,7 +15,7 @@ export const menuItemsData = [
     },
     {
       id: 3,
-      name: 'Butter Chicken',
+      name: 'Butter Chicken ',
       info: 'spicey with Butter and cooked with perfection',
       price: 45,
       img: 'images/Butterchicken.png',
